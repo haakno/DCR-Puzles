@@ -1,0 +1,16 @@
+Start and win screen. 
+
+Program to take a <dcrgraph> xml and return a <dcrgraphgame> xml unfolded
+(this program should also controll that the graph may end/not end etc. first
+demand is no spawn, no processes
+
+
+
+Check out Quill18Creates for Unity Base Building Game Tutorial, Load savegame/createWorldFromSaveFile
+Get a file from harddrive without hardcoding the filename. 
+
+
+# PROPERTIES
+
+size is -14->14 in x axis, -6->6 in y axis, made as a double array [15][7]
+total events possible is 105. (Check for this before giving making map, if greater return error). 

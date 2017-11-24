@@ -1,0 +1,91 @@
+<dcrgraphgame title="DCRgameTest1">
+            <events>
+                <event id="Activity0" >
+                </event>
+                <event id="Activity1" >
+                </event>
+                <event id="Activity2" >
+                </event>
+                <event id="Activity3" >
+                </event>
+                <event id="Activity4" >
+                </event>
+                <event id="Activity5" >
+                </event>
+                <event id="Activity6" >
+                </event>
+                <event id="Activity7" >
+                </event>
+                <event id="Activity8" >
+                </event>
+                <event id="Activity9" >
+                </event>
+                <event id="Activity10" >
+                </event>
+                <event id="Activity11" >
+                </event>
+                <event id="Activity12" >
+                </event>
+            </events>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity12" targetId="Activity7"/>
+                <condition sourceId="Activity11" targetId="Activity11"/>
+                <condition sourceId="Activity0" targetId="Activity8"/>
+                <condition sourceId="Activity8" targetId="Activity5"/>
+                <condition sourceId="Activity0" targetId="Activity1"/>
+                <condition sourceId="Activity1" targetId="Activity2"/>
+                <condition sourceId="Activity2" targetId="Activity4"/>
+                <condition sourceId="Activity5" targetId="Activity9"/>
+                <condition sourceId="Activity5" targetId="Activity12"/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity3" targetId="Activity4"/>
+                <response sourceId="Activity6" targetId="Activity5"/>
+                <response sourceId="Activity5" targetId="Activity0"/>
+                <response sourceId="Activity9" targetId="Activity10"/>
+                <response sourceId="Activity10" targetId="Activity5"/>
+                <response sourceId="Activity5" targetId="Activity9"/>
+            </responses>
+            <excludes>
+                <exclude sourceId="Activity9" targetId="Activity11"/>
+                <exclude sourceId="Activity8" targetId="Activity8"/>
+                <exclude sourceId="Activity8" targetId="Activity6"/>
+                <exclude sourceId="Activity7" targetId="Activity9"/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity1" targetId="Activity3"/>
+                <include sourceId="Activity9" targetId="Activity6"/>
+                <include sourceId="Activity1" targetId="Activity8"/>
+            </includes>
+            <milestones>
+                <milestone sourceId="Activity4" targetId="Activity6"/>
+                <milestone sourceId="Activity10" targetId="Activity9"/>
+                <milestone sourceId="Activity5" targetId="Activity12"/>
+                <milestone sourceId="Activity5" targetId="Activity10"/>
+                <milestone sourceId="Activity9" targetId="Activity5"/>
+            </milestones>
+        </constraints>
+        <marking>
+            <executed></executed>
+            <included>
+                <event id="Activity0" />
+                <event id="Activity1" />
+                <event id="Activity2" />
+                <event id="Activity4" />
+                <event id="Activity5" />
+                <event id="Activity6" />
+                <event id="Activity7" />
+                <event id="Activity8" />
+                <event id="Activity9" />
+                <event id="Activity10" />
+                <event id="Activity11" />
+                <event id="Activity12" />
+            </included>
+            <pendingResponses>
+                <event id="Activity3" />
+                <event id="Activity7" />
+                <event id="Activity11" />
+            </pendingResponses>
+        </marking>
+</dcrgraphgame>

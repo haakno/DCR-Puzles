@@ -1,0 +1,309 @@
+<dcrgraphgame title="DCRTest" >
+	<events>				
+		<event id="D2_1_1_1" >
+		</event>
+		<event id="D2_1_1_3" >
+		</event>				
+		<event id="D2_1_2_1" >
+		</event>				
+		<event id="D2_1_2_2" >
+		</event>
+		<event id="D2_1_2_3" >
+		</event>				
+		<event id="D2_1_2_5" >
+		</event>	
+		<event id="D2_2">
+		</event>
+		<event id="D2_3">
+		</event>			
+		<event id="D2_4_1">
+		</event>			
+		<event id="D2_4_2">
+		</event>
+		<event id="D2_4_3">
+		</event>
+		<event id="D2_4_4">
+		</event>				
+		<event id="D2_4_5_1">
+		</event>				
+		<event id="D2_4_5_2">
+		</event>
+		<event id="D2_4_5_3">
+		</event>
+		<event id="D2_4_6">
+		</event>
+		<event id="D2_5_1">
+		</event>			
+		<event id="D2_5_2">
+		</event>
+		<event id="D2_6_1">
+		</event>
+		<event id="D2_6_2">
+		</event>
+		<event id="D2_6_3">
+		</event>			
+		<event id="D2_7_1">
+		</event>
+		<event id="D2_7_2">
+		</event>			
+		<event id="D2_7_3">
+		</event>
+		<event id="D2_7_4">
+		</event>	
+		<event id="D2_7_5">
+		</event>
+		<event id="D2_7_6_1">
+		</event>				
+		<event id="D2_7_6_2">
+		</event>
+		<event id="D2_7_6_3">
+		</event>			
+	</events>
+	<constraints>
+		<conditions>
+			<condition sourceId="D2_7_1" targetId="D2_4_3"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_1"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_2"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_3"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_4"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_5_1"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_5_2"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_5_3"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_4_6"/>
+			<condition sourceId="D2_4_3" targetId="D2_4_4"/>
+			<condition sourceId="D2_4_2" targetId="D2_4_5_1"/>
+			<condition sourceId="D2_4_2" targetId="D2_4_5_2"/>
+			<condition sourceId="D2_4_2" targetId="D2_4_5_3"/>
+			<condition sourceId="D2_4_4" targetId="D2_4_2"/>
+			<condition sourceId="D2_5_1" targetId="D2_5_2"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_5_1" />
+			<condition sourceId="D2_6_1" targetId="D2_6_2"/>
+			<condition sourceId="D2_4_1" targetId="D2_4_4"/>
+			<condition sourceId="D2_4_6" targetId="D2_7_3"/>
+			<condition sourceId="D2_7_2" targetId="D2_7_3"/>
+			<condition sourceId="D2_6_3" targetId="D2_6_3"/>
+			<condition sourceId="D2_6_3" targetId="D2_6_2"/>
+			<condition sourceId="D2_4_4" targetId="D2_4_6"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_1"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_2"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_3"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_4"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_5"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_6_1"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_6_2"/>
+			<condition sourceId="D2_1_2_2" targetId="D2_7_6_3"/>
+			<condition sourceId="D2_7_5" targetId="D2_7_6_2"/>
+			<condition sourceId="D2_7_6_2" targetId="D2_7_6_1"/>
+			<condition sourceId="D2_7_6_2" targetId="D2_7_6_3"/>
+			<condition sourceId="D2_7_6_1" targetId="D2_7_4"/>
+			<condition sourceId="D2_7_4" targetId="D2_3"/>
+			<condition sourceId="D2_7_3" targetId="D2_7_5"/>
+			<condition sourceId="D2_1_2_3" targetId="D2_1_2_5"/>
+			<condition sourceId="D2_1_2_3" targetId="D2_1_2_1"/>
+			<condition sourceId="D2_1_2_3" targetId="D2_1_2_2"/>
+			<condition sourceId="D2_1_1_1" targetId="D2_1_2_1"/>
+			<condition sourceId="D2_1_1_1" targetId="D2_1_2_2"/>
+			<condition sourceId="D2_1_1_1" targetId="D2_1_2_3"/>
+			<condition sourceId="D2_1_1_1" targetId="D2_1_2_5"/>
+		</conditions>
+		<responses>
+			<response sourceId="D2_4_4" targetId="D2_4_2"/>
+			<response sourceId="D2_4_4" targetId="D2_4_5_1"/>
+			<response sourceId="D2_4_4" targetId="D2_4_5_2"/>
+			<response sourceId="D2_4_4" targetId="D2_4_5_3"/>
+			<response sourceId="D2_4_4" targetId="D2_2"/>
+			<response sourceId="D2_6_1" targetId="D2_6_2"/>
+			<response sourceId="D2_4_4" targetId="D2_4_6"/>
+			<response sourceId="D2_1_2_1" targetId="D2_1_2_3"/>
+			<response sourceId="D2_4_6" targetId="D2_7_3"/>
+			<response sourceId="D2_7_6_3" targetId="D2_7_3"/>
+			<response sourceId="D2_7_6_3" targetId="D2_7_5"/>
+			<response sourceId="D2_7_6_2" targetId="D2_7_6_1"/>
+			<response sourceId="D2_7_6_2" targetId="D2_7_6_3"/>
+			<response sourceId="D2_7_5" targetId="D2_7_6_2"/>
+			<response sourceId="D2_7_6_3" targetId="D2_7_6_2"/>
+			<response sourceId="D2_4_1" targetId="D2_4_4"/>
+			<response sourceId="D2_4_1" targetId="D2_4_3"/>
+			<response sourceId="D2_7_3" targetId="D2_7_5"/>
+			<response sourceId="D2_7_6_1" targetId="D2_7_4"/>
+			<response sourceId="D2_1_2_3" targetId="D2_1_2_5"/>
+			<response sourceId="D2_1_2_3" targetId="D2_1_2_2"/>
+			<response sourceId="D2_1_2_3" targetId="D2_1_2_1"/>
+		</responses>
+		<excludes>
+			<exclude sourceId="D2_1_1_3" targetId="D2_1_1_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_1_1_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_1_2_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_1_2_2"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_1_2_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_1_2_5"/>
+			<exclude sourceId="D2_5_2" targetId="D2_5_2"/>
+			<exclude sourceId="D2_5_1" targetId="D2_5_1"/>
+			<exclude sourceId="D2_6_1" targetId="D2_6_1"/>
+			<exclude sourceId="D2_6_2" targetId="D2_6_2"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_1"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_2"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_3"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_4"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_5_1"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_5_2"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_5_3"/>
+			<exclude sourceId="D2_4_6" targetId="D2_4_6"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_5_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_5_2"/>
+			<exclude sourceId="D2_6_1" targetId="D2_6_3"/>
+			<exclude sourceId="D2_3" targetId="D2_4_1"/>
+			<exclude sourceId="D2_3" targetId="D2_4_2"/>
+			<exclude sourceId="D2_3" targetId="D2_4_3"/>
+			<exclude sourceId="D2_3" targetId="D2_4_4"/>
+			<exclude sourceId="D2_3" targetId="D2_4_5_1"/>
+			<exclude sourceId="D2_3" targetId="D2_4_5_2"/>
+			<exclude sourceId="D2_3" targetId="D2_4_5_3"/>
+			<exclude sourceId="D2_3" targetId="D2_4_6"/>
+			<exclude sourceId="D2_3" targetId="D2_1_1_1"/>
+			<exclude sourceId="D2_3" targetId="D2_1_1_3"/>
+			<exclude sourceId="D2_3" targetId="D2_1_2_1"/>
+			<exclude sourceId="D2_3" targetId="D2_1_2_2"/>
+			<exclude sourceId="D2_3" targetId="D2_1_2_3"/>
+			<exclude sourceId="D2_3" targetId="D2_1_2_5"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_2"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_4"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_5_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_5_2"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_5_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_4_6"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_1_1_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_1_1_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_1_2_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_1_2_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_1_2_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_1_2_5"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_4"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_5_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_5_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_5_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_4_6"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_5_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_5_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_6_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_6_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_6_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_3"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_4"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_5"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_6_1"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_6_2"/>
+			<exclude sourceId="D2_1_2_5" targetId="D2_7_6_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_2"/>
+			<exclude sourceId="D2_3" targetId="D2_2"/>
+			<exclude sourceId="D2_1_2_2" targetId="D2_1_2_1"/>
+			<exclude sourceId="D2_1_2_2" targetId="D2_1_2_2"/>
+			<exclude sourceId="D2_1_2_2" targetId="D2_1_2_3"/>
+			<exclude sourceId="D2_1_2_2" targetId="D2_1_2_5"/>
+			<exclude sourceId="D2_1_2_3" targetId="D2_1_2_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_2"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_3"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_4"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_5"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_6_1"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_6_2"/>
+			<exclude sourceId="D2_1_1_3" targetId="D2_7_6_3"/>
+			<exclude sourceId="D2_3" targetId="D2_7_1"/>
+			<exclude sourceId="D2_3" targetId="D2_7_2"/>
+			<exclude sourceId="D2_3" targetId="D2_7_3"/>
+			<exclude sourceId="D2_3" targetId="D2_7_4"/>
+			<exclude sourceId="D2_3" targetId="D2_7_5"/>
+			<exclude sourceId="D2_3" targetId="D2_7_6_1"/>
+			<exclude sourceId="D2_3" targetId="D2_7_6_2"/>
+			<exclude sourceId="D2_3" targetId="D2_7_6_3"/>
+			<exclude sourceId="D2_7_6_1" targetId="D2_7_6_3"/>
+			<exclude sourceId="D2_3" targetId="D2_3"/>
+		</excludes>
+		<includes>
+			<include sourceId="D2_5_2" targetId="D2_6_2"/>
+			<include sourceId="D2_1_1_3" targetId="D2_6_1"/>
+			<include sourceId="D2_4_1" targetId="D2_4_3"/>
+			<include sourceId="D2_4_1" targetId="D2_4_4"/>
+			<include sourceId="D2_4_4" targetId="D2_4_1"/>
+			<include sourceId="D2_4_4" targetId="D2_4_2"/>
+			<include sourceId="D2_4_4" targetId="D2_4_3"/>
+			<include sourceId="D2_4_4" targetId="D2_4_4"/>
+			<include sourceId="D2_4_4" targetId="D2_4_5_1"/>
+			<include sourceId="D2_4_4" targetId="D2_4_5_2"/>
+			<include sourceId="D2_4_4" targetId="D2_4_5_3"/>
+			<include sourceId="D2_4_4" targetId="D2_4_6"/>
+			<include sourceId="D2_4_6" targetId="D2_4_1"/>
+			<include sourceId="D2_1_2_1" targetId="D2_1_2_3"/>
+		</includes>
+		<milestones>
+			<milestone sourceId="D2_2" targetId="D2_4_6"/>
+			<milestone sourceId="D2_4_5_1" targetId="D2_4_6"/>
+			<milestone sourceId="D2_4_5_2" targetId="D2_4_6"/>
+			<milestone sourceId="D2_4_5_3" targetId="D2_4_6"/>
+			<milestone sourceId="D2_4_6" targetId="D2_4_4"/>
+			<milestone sourceId="D2_7_5" targetId="D2_7_6_2"/>
+			<milestone sourceId="D2_7_6_2" targetId="D2_7_6_1"/>
+			<milestone sourceId="D2_7_6_2" targetId="D2_7_6_3"/>
+			<milestone sourceId="D2_4_2" targetId="D2_4_5_1"/>
+			<milestone sourceId="D2_4_2" targetId="D2_4_5_2"/>
+			<milestone sourceId="D2_4_2" targetId="D2_4_5_3"/>
+			<milestone sourceId="D2_4_3" targetId="D2_4_4"/>
+			<milestone sourceId="D2_7_3" targetId="D2_7_5"/>
+			<milestone sourceId="D2_1_2_3" targetId="D2_1_2_2"/>
+			<milestone sourceId="D2_1_2_3" targetId="D2_1_2_1"/>
+			<milestone sourceId="D2_1_2_3" targetId="D2_1_2_5"/>
+		</milestones>
+		<spawns></spawns>
+	</constraints>
+	<marking>
+		<executed></executed>
+		<included>
+			<event id="D2_1_1_1"/>
+			<event id="D2_1_1_3"/>
+			<event id="D2_1_2_5"/>
+			<event id="D2_1_2_2"/>
+			<event id="D2_1_2_3"/>
+			<event id="D2_1_2_1"/>
+			<event id="D2_4_3"/>
+			<event id="D2_4_2"/>
+			<event id="D2_4_4"/>
+			<event id="D2_4_5_2"/>
+			<event id="D2_4_5_3"/>
+			<event id="D2_4_5_1"/>
+			<event id="D2_4_6"/>
+			<event id="D2_4_1"/>
+			<event id="D2_5_2"/>
+			<event id="D2_5_1"/>
+			<event id="D2_6_3"/>
+			<event id="D2_2"/>
+			<event id="D2_3"/>
+			<event id="D2_7_5"/>
+			<event id="D2_7_1"/>
+			<event id="D2_7_3"/>
+			<event id="D2_7_4"/>
+			<event id="D2_7_2"/>
+			<event id="D2_7_6_2"/>
+			<event id="D2_7_6_3"/>
+			<event id="D2_7_6_1"/>
+		</included>
+		<pendingResponses>
+			<event id="D2_1_2_3"/>
+			<event id="D2_4_4"/>
+			<event id="D2_5_2"/>
+			<event id="D2_5_1"/>
+			<event id="D2_6_1"/>
+			<event id="D2_3"/>
+		</pendingResponses>
+	</marking>
+</dcrgraphgame>
