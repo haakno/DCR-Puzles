@@ -1,0 +1,47 @@
+<dcrgraphgame title="Try Mess Up Milestone">
+	<events>
+		<event id="Activity5"></event>
+		<event id="Activity4"></event>
+		<event id="Activity3"></event>
+		<event id="Activity0"></event>
+		<event id="Activity7"></event>
+		<event id="Activity6"></event>
+		<event id="Activity9"></event>
+		<event id="Activity10"></event>
+	</events>
+	<constraints>
+		<conditions></conditions>
+		<responses></responses>
+		<excludes></excludes>
+		<includes></includes>
+		<milestones>
+			<milestone sourceId="Activity3" targetId="Activity4"/>
+			<milestone sourceId="Activity3" targetId="Activity5"/>
+			<milestone sourceId="Activity0" targetId="Activity4"/>
+			<milestone sourceId="Activity0" targetId="Activity5"/>
+			<milestone sourceId="Activity10" targetId="Activity7"/>
+			<milestone sourceId="Activity9" targetId="Activity7"/>
+			<milestone sourceId="Activity6" targetId="Activity7"/>
+		</milestones>
+		<spawns></spawns>
+	</constraints>
+	<marking>
+		<executed></executed>
+		<included>
+			<event id="Activity5" />
+			<event id="Activity4" />
+			<event id="Activity3" />
+			<event id="Activity0" />
+			<event id="Activity7" />
+			<event id="Activity6" />
+			<event id="Activity9" />
+			<event id="Activity10" />
+		</included>
+		<pendingResponses>
+			<event id="Activity0" />
+			<event id="Activity6" />
+			<event id="Activity9" />
+			<event id="Activity10" />
+		</pendingResponses>
+	</marking>
+</dcrgraph>

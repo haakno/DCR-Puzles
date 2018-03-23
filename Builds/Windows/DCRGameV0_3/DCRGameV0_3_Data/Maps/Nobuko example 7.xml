@@ -1,0 +1,45 @@
+<dcrgraphgame title="Nobuko example 7" >
+	<events>
+		<event id="Activity 0" >               
+		</event>
+		<event id="Activity 1" >                    
+		</event>
+		<event id="Activity 2" >                    
+		</event>
+		<event id="Activity 3" >                  
+		</event>
+	</events> 
+	<constraints>
+		<conditions></conditions>
+		<responses>
+			<response sourceId="Activity 0" targetId="Activity 1" />
+			<response sourceId="Activity 0" targetId="Activity 2" />
+			<response sourceId="Activity 2" targetId="Activity 3" />
+			<response sourceId="Activity 2" targetId="Activity 0" />
+		</responses>
+		<excludes>
+			<exclude sourceId="Activity 1" targetId="Activity 1" />
+			<exclude sourceId="Activity 3" targetId="Activity 3" />
+		</excludes>
+		<includes>
+			<include sourceId="Activity 0" targetId="Activity 1" />
+			<include sourceId="Activity 2" targetId="Activity 3" />
+		</includes>
+		<milestones>
+			<milestone sourceId="Activity 0" targetId="Activity 2" />
+			<milestone sourceId="Activity 3" targetId="Activity 2" />
+			<milestone sourceId="Activity 1" targetId="Activity 0" />
+			<milestone sourceId="Activity 2" targetId="Activity 0" />
+		</milestones>
+	</constraints>
+	<marking>
+		<executed></executed>
+		<included>
+			<event id="Activity 0" />
+			<event id="Activity 2" />
+		</included>
+		<pendingResponses>
+			<event id="Activity 0" />
+		</pendingResponses>
+	</marking>
+</dcrgraphgame>

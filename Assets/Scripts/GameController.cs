@@ -73,6 +73,9 @@ public class GameController : MonoBehaviour {
     {
         input = "Maps/" + input;
         inputField.text = "";
+        //input = Application.dataPath + "/Resources/" + input;
+        /* C:\Users\Bruger\Documents\GitHub\DCR-Puzles\Assets\Resources\Maps */
+        Debug.Log(input);
         XMLReader(input);
 
         foreach(KeyValuePair<string,EventManager> e in events)
@@ -84,7 +87,7 @@ public class GameController : MonoBehaviour {
     /*
      * Check for accepting state (and deadend reached once we get that propper implemented) 
      */
-    private void Update()
+        private void Update()
     {
         if (retest)
         {
@@ -148,7 +151,14 @@ public class GameController : MonoBehaviour {
      */
     void XMLReader(string filename)
     {
-        TextAsset file = Resources.Load<TextAsset>(filename);
+        StreamReader file;
+        FileInfo file1 = new FileInfo(Application.dataPath + "/" + filename + ".xml");
+        if (file1 != null && file1.Exists)
+        {
+            file = file1.OpenText();
+        }
+        else { Debug.Log("Unable to find file at: " + Application.dataPath + "/" + filename + ".xml"); return; }
+       // TextAsset file = Resources.Load<TextAsset>(filename);
         if(file == null)
         {
             Debug.Log("no file found");
@@ -157,8 +167,8 @@ public class GameController : MonoBehaviour {
 
         inputObject.SetActive(false);
 
-        XmlReader xreader = new XmlTextReader(new StringReader(file.text));
-        
+        XmlReader xreader = new XmlTextReader(file);
+        /* change this so first read in and create the classes, then after unnesting instantiate the events into the game using different functions */
         if (xreader.ReadToDescendant("events"))
         {
             Debug.Log("Events entered");
